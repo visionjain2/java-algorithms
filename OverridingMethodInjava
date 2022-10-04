@@ -1,0 +1,23 @@
+
+public class overRiding {
+	void show() {
+		
+		System.out.println("1");
+		
+	}
+}
+class XYZ extends overRiding{
+	void show()
+	{
+		System.out.println("2");
+	}
+
+	public static void main(String[] args) {
+	
+		XYZ a = new XYZ();
+		
+		a.show();
+
+	}
+
+}
