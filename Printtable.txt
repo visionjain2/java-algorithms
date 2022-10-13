@@ -1,0 +1,41 @@
+Given a number n as input, we need to print its table, where N>0.
+
+Example
+
+Input 1 :- N = 7
+Output  :- 
+     7 * 1 = 7
+    7 * 2 = 14
+    7 * 3 = 21
+    7 * 4 = 28
+    7 * 5 = 35
+    7 * 6 = 42
+    7 * 7 = 49
+    7 * 8 = 56
+    7 * 9 = 63
+    7 * 10 = 70
+Two ways are shown to Print Multiplication Table for any Number:
+
+Using for loop for printing the multiplication table upto 10.
+Using while loop for printing the multiplication table upto the given range.
+
+// Java Program to print the multiplication table of the
+// number N.
+
+class GFG {
+	public static void main(String[] args)
+	{
+		// number n for which we have to print the
+		// multiplication table.
+		int N = 7;
+
+		// looping from 1 to 10 to print the multiplication
+		// table of the number.
+		// using for loop
+		for (int i = 1; i <= 10; i++) {
+			// printing the N*i,ie ith multiple of N.
+			System.out.println(N + " * " + i + " = "
+							+ N * i);
+		}
+	}
+}
