@@ -1,0 +1,22 @@
+The C language syntax specifies the rules for writing the code in the C language. In simple words, these rules inform how to form statements in a C language program - How should the line of code start, how it should end, where to use double quotes, where to use curly brackets, where to use parenthesis, etc.
+
+What is Syntax?
+Any language, be it English or Hindi, or Spanish, has a grammar that defines the rules for using the language, for example how to form a sentence, what different words mean, etc.
+
+In a normal spoken language or a computer programming language, syntax means how to arrange words, characters, special characters, to make a meaningful statement, or expression, etc.
+
+If someone says there is a syntax error in the program, means you have not written the program correctly, you might have missed some semicolon or some other general mistake in typing the code for the program.
+
+Having a syntax error doesn't mean your code's logic is incorrect, it means you have written it incorrectly. Once the syntax is correct, then only the code is compiled and then run.
+
+The C Tokens
+The smallest individual unit in the C program is known as C Token. Tokens are either keywords or identifiers, constants, variables, or any other symbol which has some meaning in C language. The C program can also be called a collection of various tokens.
+
+Hence the syntax for C language defines how to use these tokens together while writing the C language code.
+
+#include <stdio.h>
+int main()
+{
+    printf("Hello,World");
+    return 0;
+}
